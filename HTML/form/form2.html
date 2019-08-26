@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form2</title>
+	
+	<style>
+		form
+{
+	width: 400px;
+	margin:0 auto;
+	background-color:yellow;
+}
+.submit
+{
+	margin: 0 auto; 
+	display: block;
+
+}
+	</style>
+</head>
+
+<body>
+
+
+	<form >
+		<fieldset>
+			<legend>
+				Personal details
+			</legend>
+			<label>first name <input type="text" name="first name"></label>
+        		<br>
+			<label>last name <input type="text" name="last name"></label>
+		      <br>
+		    <label>Email <input type="Email" name="Email"></label>
+		     <br>
+		    <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female
+        </fieldset>
+</form>
+    <br>
+  <form>
+  	<fieldset>
+  		<legend>
+  			Magazine
+  		</legend>
+ 
+             <br>
+     <input type="checkbox" name="one">stavanger Aftenblad 
+           <br>
+     <input type="checkbox" name="one">
+      Teknisk Ukeblad
+          <br>
+     <input type="checkbox" name="one">
+     se go Hor
+         <br>
+     <input type="checkbox" name="one">
+     familien 
+     </form>
+         <br>
+     </fieldset>
+     <form>
+     	<fieldset>
+     		<legend>
+     			 Subscription
+     		</legend>
+     
+             <label>Period <select name="months"></label> 
+             <option value="6 months">1 months</option>
+             <option value="12 months">12 months</option>
+             <option value="18 months">18 months</option>
+             <option value="24 months">24 months </option> 
+             </select>
+                <br>
+        </fieldset>
+<input class="submit" type="submit" value="Subscribe">
+
+	</form>
+</body>
+</html>

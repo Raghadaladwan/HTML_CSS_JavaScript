@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #5: Input check</title>
+    <style>
+        * {
+            font-family: Arial, sans-serif;
+        }
+
+        .err {
+            color: red;
+            font-size: 0.7em;
+        }
+    </style>
+   
+</head>
+<body>
+
+<form name="pw">
+    <table>
+        <tr>
+            <td>Password (min 6 characters):</td>
+            <td><input type="password" name="password1" id="password1" size="10" placeholder="Password" oninput="check('pw1')" ></td>
+            <td>
+                <div id="pw1_check" class="err"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>Repeat password:</td>
+            <td><input type="password" name="password2" oninput="check('pw2')" id="password2" size="10" placeholder="Password"></td>
+            <td>
+                <div id="pw2_check" class="err"></div>
+            </td>
+        </tr>
+    </table>
+
+    <input type="submit" value="Submit" id="submitBtn"/>
+</form>
+
+<script>
+        /* TODO complete this part */
+            var pass1=document.getElementById("password1");
+            var pass2=document.getElementById("password2");
+            var pwc1 =document.getElementById("pw1_check");
+            var pwc2 =document.getElementById("pw2_check");
+            var btn  =document.getElementById("submitBtn");
+            btn.style.visibility='hidden';
+        function check(x)
+        {
+           
+          if(x==='pw1')
+          {
+             
+            if(pass1.value.length > 0 &&  pass1.value.length < 6  )
+            {
+                pwc1.innerHTML="Too short";
+
+               
+            }
+            else
+            {
+                pwc1.innerHTML="";
+            }
+            
+         }
+            else
+            {
+               if(pass1.value !== pass2.value)
+               {
+                pwc2.innerHTML = "the passwords don't match";
+                btn.style.visibility='hidden';
+                
+               }
+               else 
+            {
+                pwc2.innerHTML="";
+                btn.style.visibility='visible';
+            }
+
+            }
+            
+               
+           
+
+        }
+    </script>
+</body>
+</html>
+

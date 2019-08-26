@@ -1,0 +1,33 @@
+#parents{
+	width: 1012px;
+	height: 900px;
+	
+}
+
+
+#c1{
+	background-color: orange;
+	width: 500px;
+	height: 400px;
+	float: left;
+	border:solid;
+
+
+}
+
+#c2{
+	background-color: green;
+	width: 500px;
+	height: 400px;
+	float:left;	
+	border:solid;
+}
+
+#c3{
+	background-color: blue;
+	width: 500px;
+	height:806px;		
+	float: right;
+	border:solid;
+
+}

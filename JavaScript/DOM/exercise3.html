@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>exercise 3 </title>
+
+</head>
+<body>
+
+    
+
+    <select  onchange="chImage(value)" >
+        <option value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdeZlHaWbBEi-bgPLa5lUErA1keHW4D8dxnaCfkAIEuxQQ3VLO">Select</option>
+        <option value="flag1.png">Norway</option>
+       
+    </select>
+    <br>
+    
+    <img id="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdeZlHaWbBEi-bgPLa5lUErA1keHW4D8dxnaCfkAIEuxQQ3VLO"
+     style="border: 1px solid black "
+      alt="No image selected"/>
+
+    <script>
+    function chImage(value)
+    {
+        var img=document.getElementById("img");
+        img.setAttribute("src", value);
+        // if(value ==="flag")
+        // {
+     
+        //     src=document.getElementById('img').src="flag1.png";
+
+        // }
+    }
+    </script>
+</body>
+</html>

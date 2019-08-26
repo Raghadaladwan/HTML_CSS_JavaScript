@@ -1,0 +1,50 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+body
+{
+	justify-content: flex-start;
+	display: flex;
+	flex-flow: row wrap;
+    background: #EEE5E9;
+
+}
+
+.one
+{
+	flex-direction: column;
+	position: relative;
+	flex: auto;
+    
+    position: relative;
+    flex: auto;
+}
+
+button:hover:before 
+{
+  color: #2B2D42;
+}
+.two
+{
+
+}
+.inner
+{
+	
+	display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    background: linear-gradient(-45deg, #92DCE5 50%, rgba(255, 255, 255, 0.5) 50%);
+    box-shadow: 1px 5px 15px #CCC;
+    width: 15px;
+    height: auto;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 1px;
+}

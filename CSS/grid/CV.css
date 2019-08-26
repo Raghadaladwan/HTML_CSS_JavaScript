@@ -1,0 +1,23 @@
+*
+{
+	margin:10px;
+	padding: 10px;
+}
+.backcolor
+{
+   background-color: #FF938D;
+   background-color:#FFCDA4;
+   background-color: #FFEAA4;
+   background-color: #C0C480;
+   background-color: #507A4A;
+
+}
+body
+{
+	background-color: #C0C480;
+}
+.Header
+{
+	display: grid;
+	grid-template-columns: auto auto;
+}

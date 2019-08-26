@@ -1,0 +1,22 @@
+body{
+	background-color: #ff5900;
+	color: white;
+}
+
+img {
+	
+	border-radius: 50%;
+}
+
+.register:hover{
+	color: #111;
+}
+
+.mohammad {
+	color: red
+
+}
+
+#ahmad{
+	color: white
+}

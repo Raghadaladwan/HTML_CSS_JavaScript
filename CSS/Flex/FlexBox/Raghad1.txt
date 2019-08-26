@@ -1,0 +1,20 @@
+Hello world! 
+-out = encription
+*****
+
+openssl des -in pic.jpg -out pic2.jpg
+
+password:
+******\\ Git
+
+git 
+git --version
+
+
+
+echo "# class-A" >> README.md
+git init
+git add .
+git commit -m "descus the situation"
+git remote add origin https://github.com/Raghadaladwan/class-A.git
+git push -u origin master
